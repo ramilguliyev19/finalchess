@@ -1,87 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ramil Guliyev – Portfolio</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f3f4f6;
-      color: #111827;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 50px auto;
-      background: white;
-      padding: 30px 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin-top: 0;
-      font-size: 2rem;
-      color: #2563eb;
-    }
-    h2 {
-      margin-top: 2rem;
-      color: #1f2937;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 5px;
-    }
-    p {
-      line-height: 1.6;
-    }
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .link-box {
-      background: #f0f4ff;
-      padding: 10px 15px;
-      border-left: 4px solid #2563eb;
-      margin: 15px 0;
-      border-radius: 6px;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #6b7280;
-      margin-top: 40px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <div class="container">
-    <h1>Ramil Guliyev</h1>
-    <p>Hello! I'm a Computer Science student and full-stack web developer. I created this website for my final project.</p>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+        </ul>
+    </nav>
 
-    <h2>🧠 Final Project: Chess Opening Explorer</h2>
-    <p>This full-stack app helps users explore and study chess openings. It uses a Vue.js frontend and a Node.js + MongoDB backend, connected via a REST API.</p>
-    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Having a solid academic background and practical experience in the IT sector, I have knowledge of a diverse array of technologies, Python, C#, JavaScript, MSSQL, various software tools, and hardware...</p>
+    </section>
 
-    <div class="link-box">
-      🔗 <strong>Frontend App:</strong><br>
-      <a href="https://68216681e296b8e259e2a78a--friendly-rugelach-d925ae.netlify.app/" target="_blank">Vue.app</a>
-    </div>
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.S. in Computer Engineering</strong>, Azerbaijan Technical University (2019 - July 2023)</p>
+        <p><strong>M.S. in Computer Science</strong>, University of New Haven (2023 - December 2025)</p>
+    </section>
 
-    <div class="link-box">
-      🔗 <strong>API Endpoint:</strong><br>
-      <a href="https://finalchess.onrender.com/api/openings" target="_blank">/api/openings</a>
-    </div>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>CommuteMate</li>
+            <li><a href="https://68216681e296b8e259e2a78a--friendly-rugelach-d925ae.netlify.app/" style="text-decoration: none; color: inherit;">Chess opening Explorer</a></li>
+        </ul>
+    </section>
 
-    <h2>📫 Contact</h2>
-    <p>Email: <a href="mailto:ramilguliyev02@gmail.com">ramilguliyev02@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/ramilguliyev19" target="_blank">My Github</a></p>
 
-    <footer>© 2025 Ramil Guliyev</footer>
-  </div>
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Back-End Developer</strong>, Meetsoft LLC (2023 - August 2023)</p>
+        <p><strong>Software Developer Intern</strong>, Bisa LLC (2022 - November 2022)</p>
+        <p><strong>Web Developer Intern</strong>, InsureSoft LLC (2022 - July 2022)</p>
+        <p><strong>IT Technician</strong>, Azerbaijan Technical University (2021 - December 2022)</p>
+        <p><strong>IT Support</strong>, Azerbaijan Technical University (2020 - July 2021)</p>
+    </section>
 
+
+    <section id="blogs">
+        <h2>Blogs</h2>
+        <p>Is Privacy Dead in the Age of AI?</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me:</p>
+        <ul>
+            <li><a href="www.linkedin.com/in/ramil-g-8b222619a" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/ramilguliyev19" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
